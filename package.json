@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "cucumber": "cucumber-js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@cucumber/cucumber": "^8.7.0",
     "chai": "^4.3.10",
     "cucumber": "^6.0.7",
     "puppeteer": "^21.5.2"
